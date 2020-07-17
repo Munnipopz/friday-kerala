@@ -5,9 +5,6 @@ from telethon import events
 from datetime import datetime
 from userbot.utils import admin_cmd
 from userbot import CMD_HELP
-from userbot import StartTime, catdef
-import time
-import asyncio
 
 @borg.on(admin_cmd(pattern=f"pong$", outgoing=True))
 async def _(event):

@@ -5,7 +5,7 @@ from datetime import datetime
 from userbot.utils import admin_cmd
 import time
 
-#@borg.on(admin_cmd(pattern=f"pong$", outgoing=True))
+@borg.on(admin_cmd(pattern=f"pong$", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return

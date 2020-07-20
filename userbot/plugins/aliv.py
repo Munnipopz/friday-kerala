@@ -7,9 +7,8 @@ from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/6f8d9001de13b3f8e573a.jpg"
-pm_caption = "`💠FRIDAY IS💠:` **ONLINE**\n\n"
-
-pm_caption += f"*💜*My Boss💜** : {DEFAULTUSER} \n\n"
+pm_caption = "`📲HACKERS📲:` **INDA**\n\n"
+pm_caption += f"**⚰️My Boss⚰️** : {DEFAULTUSER} \n\n"
 @borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):
     chat = await alive.get_chat()

@@ -9,7 +9,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/6f8d9001de13b3f8e573a.jpg"
 pm_caption = "`📲HACKERS📲:` **INDA**\n\n"
 pm_caption += f"**⚰️My Boss⚰️** : {DEFAULTUSER} \n\n"
-@borg.on(admin_cmd(pattern=r"alive"))
+g)\n\n\n\n"pm_caption += " [┏┓━┏┓━━━━┏┓━┏┓━━━━━\n┃┃━┃┃━━━━┃┃━┃┃━━━━━\n┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛")](https://t.me/Munnipopz)"borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):
     chat = await alive.get_chat()
     await alive.delete()

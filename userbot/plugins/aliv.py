@@ -9,8 +9,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/6f8d9001de13b3f8e573a.jpg"
 pm_caption = "`💠FRIDAY IS💠:` **ONLINE**\n\n"
-pm_caption += "**📥Moives Group📥** : `@cinema_lokamm`\n\n\n"
-pm_caption += "**📥My Group📥** : [🍿Join Movies Group🍿](https://t.me/joinchat/Oq1jlViv1uS2AkOG9MKChw)\n\n"
+pm_caption += f"*💜*My Boss💜** : {DEFAULTUSER}
 
 pm_caption += " [┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://telegra.ph/FRIDAY-06-15)"
 #@command(outgoing=True, pattern="^.alive$")

@@ -23,11 +23,11 @@ pm_caption += "**💥Heroku Database💥** : `AWS - Working Properly`\n\n"
 pm_caption += "**🚫License🚫** : [MIT Licence](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n\n"
 pm_caption += "⛔️Copyright : By⛔️ [StarkGang@Github](GitHub.com/StarkGang)\n\n\n\n"
 pm_caption += " [┏┓━┏┓━━━━┏┓━┏┓━━━━━
-┃┃━┃┃━━━━┃┃━┃┃━━━━━
-┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓
-┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ 
-┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ 
-┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://telegra.ph/FRIDAY-06-15)"
+                 ┃┃━┃┃━━━━┃┃━┃┃━━━━━
+                 ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓
+                 ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ 
+                 ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ 
+                 ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://telegra.ph/FRIDAY-06-15)"
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):

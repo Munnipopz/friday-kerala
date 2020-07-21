@@ -17,7 +17,7 @@ USER_BOT_NO_WARN = ("`Hello My Friend ! This is` **F.R.I.D.A.Y**\n"
                     "**Currently My Boss**\n"
                     f"{DEFAULTUSER} is Busy ! Please Don't Spam My Masters Inbox\n\n"
                     f"{CUSTOM_MIDDLE_PMP} \n\n"
-                    "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/Munnipopz)")
+                    "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n┃┃━┃┃━━━━┃┃━┃┃━━━━━\n┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛")](https://t.me/Munnipopz)")
 
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)

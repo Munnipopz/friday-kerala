@@ -23,16 +23,6 @@ USER_BOT_NO_WARN = ("    ╔┓┏╦━━╦┓╔┓╔━━╗ \n║┗┛�
                     "Send `/start` To Register Your Request!!")
 
 
-PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
-if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/08a590d1edd8852989669.jpg"
-else:
-  WARN_PIC = PMPERMIT_PIC
-
-PM_WARNS = {}
-PREV_REPLY_MESSAGE = {}
-
-
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
     async def approve_p_m(event):

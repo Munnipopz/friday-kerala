@@ -22,7 +22,7 @@ USER_BOT_NO_WARN = ("`Hello My Friend ! This is` **F.R.I.D.A.Y**\n"
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/75a6253f4cd7172b99d93.jpg"
+  WARN_PIC = "https://telegra.ph/file/6f20f96ff331dd07bbe68.jpg"
 else:
   WARN_PIC = PMPERMIT_PIC
 

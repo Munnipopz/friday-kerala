@@ -13,13 +13,13 @@ PREV_REPLY_MESSAGE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("   ──▄────▄▄▄▄▄▄▄────▄─── \n─▀▀▄─▄█████████▄─▄▀▀── \n─────██─▀███▀─██────── \n───▄─▀████▀████▀─▄──── \n─▀█────██▀█▀██────█▀──\n\n"
-                    "`Hello ! This is` **F.R.I.D.A.Y**\n"
-                    "`Private Messaging Security Protocol ⚠️`\n\n"
-                    "**You Have Trespassed To My Masters\n"
-                    f"{DEFAULTUSER}'s Inbox**\n\n"
-                    "**This is Illegal And Regarded As A Crime ☣️**"
-                    "**Now You Are In Trouble So Send** 🔥 `/start` 🔥  **To Start A Valid Conversation!!**")
+USER_BOT_NO_WARN = ("    ╔┓┏╦━━╦┓╔┓╔━━╗ \n║┗┛║┗━╣┃║┃║X X║\n║┏┓║┏━╣┗╣┗╣╰╯║ \n╚┛┗╩━━╩━╩━╩━━╝﻿\n\n"
+                    "`Hello, This Is An` **Automated Reply From My Master Userbot ⚡Friday⚡.**\n"
+                    "**I Serve This My boss 🔥 "
+                    f"{DEFAULTUSER} 🔥**.\n\n"
+                    "**My boss Will Approve you To PM but if you want you can Register Your Request!**\n\n"
+                    "Send `/start` To Register Your Request!!")
+
 
 
 if Var.PRIVATE_GROUP_ID is not None:
@@ -54,7 +54,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         chat = await event.get_chat()
         if event.is_private:
           if chat.id == 813878981:
-            await event.edit("You bitch tried to block my Creator, now i will sleep for 100 seconds")
+            await event.edit("You bitch tryed to block my Creator, now i will sleep for 100 seconds")
             await asyncio.sleep(100)
           else:
             if pmpermit_sql.is_approved(chat.id):
@@ -195,12 +195,13 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(953414679,813878981)))
+@bot.on(events.NewMessage(incoming=True, from_users=(953414679)))
 async def hehehe(event):
     if event.fwd_from:
         return
     chat = await event.get_chat()
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
-            pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator**")
+            pmpermit_sql.approve(chat.id, "**My master🙈🙈**")
+            await borg.send_message(chat, "**My master is come....U are Lucky**")
+           

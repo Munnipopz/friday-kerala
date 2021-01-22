@@ -7,7 +7,7 @@ from telethon import events, functions, __version__
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@Sur_vivor"
 
-@borg.on(admin_cmd(pattern="help ?(.*)"))
+@borg.on(admin_cmd(pattern="help ?(!*)"))
 async def cmd_list(event):
         tgbotusername = Var.TG_BOT_USER_NAME_BF_HER
         input_str = event.pattern_match.group(1)
@@ -74,7 +74,7 @@ async def _(event):
     await event.edit("""Telethon UserBot powered by CatUserbot""")
 
 
-@borg.on(admin_cmd(pattern="syntax (.*)"))
+@borg.on(admin_cmd(pattern="syntax (!*)"))
 async def _(event):
     if event.fwd_from:
         return
